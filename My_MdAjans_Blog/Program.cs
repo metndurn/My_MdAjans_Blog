@@ -1,8 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using My_MdAjans_Blog.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));//veritabaný baðlantýsý için kullanýlýr
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
