@@ -2,7 +2,7 @@
 
 namespace My_MdAjans_Blog.Entities
 {
-	public class Comment
+	public class Comment : EntityLogBase //comment sınıfı entitylogbase den kalıtım alıyor
 	{
 		[Key]
 		public int Id { get; set; }
