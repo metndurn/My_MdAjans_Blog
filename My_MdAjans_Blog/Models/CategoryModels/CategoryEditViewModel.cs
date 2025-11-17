@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace My_MdAjans_Blog.Models
+namespace My_MdAjans_Blog.Models.CategoryModels
 {
 	public class CategoryEditViewModel//kategori düzenleme modeli
 	{

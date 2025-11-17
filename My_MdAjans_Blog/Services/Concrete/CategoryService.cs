@@ -1,5 +1,5 @@
 ﻿using My_MdAjans_Blog.Entities;
-using My_MdAjans_Blog.Models;
+using My_MdAjans_Blog.Models.CategoryModels;
 using My_MdAjans_Blog.Services.Abstract;
 
 namespace My_MdAjans_Blog.Services.Concrete
